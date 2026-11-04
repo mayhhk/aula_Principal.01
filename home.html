@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Minha Primeira Página</title>
+    <link rel="stylesheet" href="./assets/css//home/estilo.css">
+    <link rel="stylesheet" href="planos.html">
+    <script src="./assets/js/menu-hamburguer.js"></script>
+    <script src="./assets/js/home.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+  <body>
+    <header>
+      <div class="logo">A</div>
+      <h1 class="titulo">Meu Site de Notícias</h1>
+      <div class="menu-hamburguer" onclick="alterarVisualizacaoMenuLateral()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <section>
+        <nav>
+          <ul class="menu-lateral">
+            <li id="opcao-noticias">
+              <a href="#">
+                <div class="opcao">
+                  <div class="icone-inicial">
+                  <i class="fa-solid fa-newspaper"></i>
+                </div>
+                  <div class="rotulo">Noticia</div>
+                  <div class="icone-final"> 
+                  <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="opcao">
+                  <div class="icone-inicial">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                  <div class="rotulo">Mensagem</div>
+                  <div class="icone-final"> 
+                  <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="opcao">
+                  <div class="icone-inicial">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                  <div class="planos"></div> 
+                    <span class="me-2"><a href="planos.html" target="_blank" class="text-decoration-none" style="color: #c1aae6;">Planos</a></span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+             <a href="./index.html">
+                <div class="opcao">
+                  <div class="icone-inicial">
+                  <i class="fa-solid fa-right-from-bracket"></i>
+                </div>
+                  <div class="rotulo">Sair</div>
+                  <div class="icone-final"> 
+                  <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          </nav>
+         <main id="noticias" class="container">
+      </main>
+    </section>
+    <footer>&copy, Meu Site, 2026, 🧡</footer>
+  </body>
+</html>
+
